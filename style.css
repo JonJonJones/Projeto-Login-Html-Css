@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;    
+    min-height: 100vh;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+.sg-wraper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 70px;
+    background-color: rgb(65, 92, 122);
+    color: azure;
+}
+h1{
+    font-size: 32px;
+}
+.sgroup-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0.5rem;
+}
+.sgroup-account{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    margin: 0.5rem;
+}
+.login{
+    color: white;
+    background-color: rgb(65, 92, 122);
+    padding: 10px;
+    margin: 0.5rem;
+}
+.register{
+    color: blue;
+    margin-top: 0.5rem;
+}
+.sgroup-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0.5rem;
+    border: 1px solid lightgray;
+}
+.sgroup-login p{
+    border: 0;
+}
+.app-login-google{
+    border: 1px solid black;
+    margin: 10px 10px;
+    border-radius: 2px;
+}
+.download{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5px;
+    background-color: gray;
+}
+.app-download{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+.app-download:nth-child(1){
+    background-image: url(appStore.png);
+}
+.app-download:nth-child(2){
+    background-image: url(googlePlay.png);
+}
+footer{
+    text-align: center;
+}
+/*media queries*/
+  
+@media(max-width: 650px){    
+    .sgroup-image{
+        display: none;
+    }
+}
+
+
