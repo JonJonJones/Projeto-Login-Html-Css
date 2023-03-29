@@ -42,13 +42,13 @@ h1{
     margin: 0.5rem;
 }
 .login{
-    color: white;
-    background-color: rgb(88, 77, 192);
+    color: rgb(238, 232, 232);
+    background-color: rgb(93, 82, 196);
     padding: 10px;
     margin: 0.5rem;
 }
 .register{
-    color: rgb(65, 92, 122);
+    color: rgb(72, 105, 170);
     margin-top: 0.5rem;
 }
 .sgroup-login{
